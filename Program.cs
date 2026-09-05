@@ -115,6 +115,38 @@
 
             #endregion
 
+            #region Exercise 4
+
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
+
+            //Console.WriteLine(emails.Count); // هنا هيطبع 2 لان StringComparer.OrdinalIgnoreCase يتعامل ان كل الاسماء زي بعض حتي لو كانت اغليتها فيها حورف capital ,small هيشوفها زي يعض
+            //Console.WriteLine("===================================");
+
+            //HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+            //HashSet<int> UnionSet = new(setA);
+            //UnionSet.UnionWith(setB);
+            //foreach (int x in UnionSet) Console.WriteLine(x);
+            //Console.WriteLine("===================================");
+            //HashSet<int> result = new HashSet<int>(setA);
+            //result.IntersectWith(setB);
+            //foreach (int num in result) Console.WriteLine(num);
+            //Console.WriteLine("===================================");
+            //HashSet<int> result2 = new(setA);
+            //result.ExceptWith(setB);
+            //foreach (int num in result2) Console.WriteLine(num);
+            //Console.WriteLine("===================================");
+            //HashSet<int> subset = new HashSet<int> { 1, 2 };
+            //bool isSubset = subset.IsSubsetOf(setA);
+            //Console.WriteLine(isSubset);
+
+            #endregion
+
         }
     }
 }
