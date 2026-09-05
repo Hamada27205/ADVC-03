@@ -52,7 +52,7 @@
             //leaderboard.Add(200 , "Sara");
             //leaderboard.Add(800 , "Ali");
             //leaderboard.Add(350 , "Mona");
-            
+
             //foreach (var player in leaderboard) Console.WriteLine($"{player.Key} = {player.Value}");
             //Console.WriteLine("===================================");
             //var firstEntry = leaderboard.First();
@@ -69,6 +69,49 @@
 
             //foreach (var entry in leaderboard)
             //    Console.WriteLine($"{entry.Key} = {entry.Value}");
+
+            #endregion
+
+            #region Exercise 3
+
+            //Dictionary<string, string> phoneBook = new()
+            //{
+            //    ["Ahmed"] = "0100111",
+            //    ["Sara"] = "0122222",
+            //    ["Ali"] = "0155555",
+            //    ["Mona"] = "0188888"
+            //};
+
+            //phoneBook["Omar"] = "0199999";
+
+            //foreach(var phone in phoneBook) Console.WriteLine(phone); 
+            //Console.WriteLine("===================================");
+
+
+            //try
+            //{
+            //    phoneBook.Add("Ahmed", "0111111");
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine($"Error: {ex.Message}");
+            //}
+            //Console.WriteLine("===================================");
+
+            //bool added = phoneBook.TryAdd("Ahmed", "0111111");
+            //Console.WriteLine(added);
+            //Console.WriteLine("===================================");
+
+            //bool exists = phoneBook.ContainsKey("Khaled");
+            //Console.WriteLine(exists);
+            //Console.WriteLine("===================================");
+
+            //string number = phoneBook.TryGetValue("Khaled", out string? result) ? result : "Not Found";
+            //Console.WriteLine(number);
+            //Console.WriteLine("===================================");
+
+            //Console.WriteLine(string.Join(", ", phoneBook.Keys));
+            //Console.WriteLine(string.Join(", ", phoneBook.Values));
 
             #endregion
 
